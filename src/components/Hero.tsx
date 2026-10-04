@@ -2,7 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { ArrowRight, Trophy, Play, CheckCircle2, MessageCircle, ShieldCheck } from 'lucide-react';
+import Link from 'next/link';
+import { ArrowRight, Trophy, Play, CheckCircle2, MessageCircle, ShieldCheck, BookOpen } from 'lucide-react';
 import { SITE_METADATA, HYROX_ACHIEVEMENT } from '@/data/siteData';
 
 interface HeroProps {
@@ -19,10 +20,10 @@ export default function Hero({ onOpenBooking, onOpenVideo, isHindi = false }: He
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
-          
+
           {/* Left Column: Editorial Storytelling & Positioning */}
           <div className="lg:col-span-7 flex flex-col justify-center space-y-6 sm:space-y-8">
-            
+
             {/* Top Verified Badge */}
             <div className="inline-flex items-center gap-2 self-start flex-wrap">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#121316] text-white">
@@ -89,13 +90,15 @@ export default function Hero({ onOpenBooking, onOpenVideo, isHindi = false }: He
                 <span>{isHindi ? 'कौशल सीखें' : 'Explore Skills'}</span>
               </a>
 
-              <a
-                href="#story"
-                className="inline-flex items-center justify-center gap-2 px-4 py-3.5 text-sm font-semibold text-[#52525B] hover:text-[#121316] transition-colors"
+              <Link
+                href="/story"
+                id="hero-view-story-btn"
+                className="inline-flex items-center justify-center gap-2 px-5 py-4 text-sm sm:text-base font-bold tracking-wide uppercase bg-white hover:bg-[#F3F0EA] text-[#121316] rounded-xl border border-[#D5D0C6] hover:border-[#121316] shadow-sm hover:shadow transition-all group"
               >
-                <Play className="w-4 h-4 text-[#E64A19] fill-current" />
-                <span>{isHindi ? 'इमरान की कहानी' : 'Watch Story'}</span>
-              </a>
+                <BookOpen className="w-4 h-4 text-[#E64A19] group-hover:scale-110 transition-transform" />
+                <span>{isHindi ? 'मेरी कहानी पढ़ें' : 'View Story'}</span>
+                <ArrowRight className="w-4 h-4 text-zinc-400 group-hover:text-[#E64A19] group-hover:translate-x-0.5 transition-all" />
+              </Link>
             </div>
 
             {/* Trust Anchors Row */}
@@ -119,12 +122,12 @@ export default function Hero({ onOpenBooking, onOpenVideo, isHindi = false }: He
           {/* Right Column: Hero Authentic Photography & Real Accolade Card */}
           <div className="lg:col-span-5 relative flex justify-center">
             <div className="relative w-full max-w-md lg:max-w-none">
-              
+
               {/* Main Real Photograph */}
               <div className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-zinc-900 aspect-[4/5] sm:aspect-[3/4]">
                 <Image
                   src="/images/imran/imran-hyrox-champion.jpg"
-                  alt="Mohammad Imran Qureshi smiling proudly in his wheelchair with arms open at HYROX Delhi, showing Bib #85001"
+                  alt="Mohammad Imran smiling proudly in his wheelchair with arms open at HYROX Delhi, showing Bib #85001"
                   fill
                   priority
                   className="object-cover object-top hover:scale-[1.02] transition-transform duration-500"
@@ -145,7 +148,7 @@ export default function Hero({ onOpenBooking, onOpenVideo, isHindi = false }: He
                     </span>
                   </div>
                   <h3 className="text-xl font-bold leading-tight">
-                    Mohammad Imran Qureshi
+                    Mohammad Imran
                   </h3>
                   <p className="text-xs text-zinc-300 mt-0.5">
                     Wheelchair Lifestyle Instructor & Adaptive Athlete

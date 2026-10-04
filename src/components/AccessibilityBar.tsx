@@ -52,7 +52,7 @@ export default function AccessibilityBar({ onLanguageToggle, isHindi = false }: 
           </span>
           <span className="hidden sm:inline text-zinc-500">•</span>
           <span className="hidden sm:inline text-zinc-400">
-            Official Platform of Mohammad Imran Qureshi
+            Official Platform of Mohammad Imran
           </span>
         </div>
 

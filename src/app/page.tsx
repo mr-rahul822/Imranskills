@@ -10,7 +10,6 @@ import TrainingSection from '@/components/TrainingSection';
 import AchievementsSection from '@/components/AchievementsSection';
 import RealProgressSection from '@/components/RealProgressSection';
 import CommunitySection from '@/components/CommunitySection';
-import TravelGuideSection from '@/components/TravelGuideSection';
 import VideoHubSection from '@/components/VideoHubSection';
 import GallerySection from '@/components/GallerySection';
 import BookingSection from '@/components/BookingSection';
@@ -90,12 +89,7 @@ export default function HomePage() {
           isHindi={isHindi}
         />
 
-        {/* 8. Accessible Travel in India Guide */}
-        <TravelGuideSection
-          isHindi={isHindi}
-        />
-
-        {/* 9. YouTube Video Tutorials Hub */}
+        {/* 8. YouTube Video Tutorials Hub */}
         <VideoHubSection
           isHindi={isHindi}
         />

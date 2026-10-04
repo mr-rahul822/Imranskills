@@ -40,7 +40,7 @@ export default function Footer({ isHindi = false }: FooterProps) {
                 IMRAN<span className="text-[#FF5722]">.</span>SKILLS
               </div>
               <p className="text-xs font-mono text-zinc-400 mt-1 uppercase tracking-wider">
-                Mohammad Imran Qureshi • Official Platform
+                Mohammad Imran • Official Platform
               </p>
             </div>
 
@@ -82,7 +82,7 @@ export default function Footer({ isHindi = false }: FooterProps) {
               <a
                 href={`mailto:${SITE_METADATA.email}`}
                 className="w-10 h-10 rounded-xl bg-[#1E2026] hover:bg-amber-600 text-white flex items-center justify-center transition-colors border border-[#2E313A]"
-                aria-label="Email Imran Qureshi"
+                aria-label="Email Mohammad Imran"
               >
                 <Mail className="w-5 h-5" />
               </a>
@@ -118,11 +118,6 @@ export default function Footer({ isHindi = false }: FooterProps) {
               <li>
                 <a href="#community" className="hover:text-white hover:underline transition-colors">
                   The Imran Skills Community
-                </a>
-              </li>
-              <li>
-                <a href="#travel" className="hover:text-white hover:underline transition-colors">
-                  Accessible Travel India Guide
                 </a>
               </li>
               <li>
@@ -246,7 +241,7 @@ export default function Footer({ isHindi = false }: FooterProps) {
         {/* Bottom Bar: Copyright & Back to Top */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-400">
           <div className="flex flex-wrap items-center gap-2 text-center sm:text-left">
-            <span>© {new Date().getFullYear()} Mohammad Imran Qureshi (Imran Skills).</span>
+            <span>© {new Date().getFullYear()} Mohammad Imran (Imran Skills).</span>
             <span>•</span>
             <span className="text-zinc-300 font-medium">
               {isHindi ? 'इंडिपेंडेंटली जीना सीखिए।' : 'Independently Jeena Seekhiye.'}

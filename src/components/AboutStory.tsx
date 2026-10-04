@@ -52,7 +52,7 @@ export default function AboutStory({ isHindi = false }: AboutStoryProps) {
   return (
     <section id="about" className="py-20 sm:py-28 bg-[#F8F7F4] border-b border-[#E4E1DA] scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="max-w-3xl mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#EAE6DF] text-[#121316] text-xs font-bold uppercase tracking-widest font-mono">
@@ -74,25 +74,25 @@ export default function AboutStory({ isHindi = false }: AboutStoryProps) {
           </h2>
 
           <p className="text-base sm:text-lg text-[#4A4E57] leading-relaxed">
-            Mohammad Imran Qureshi did not emerge from a luxury sports academy. His expertise was forged through neurological adversity, relentless self-training on Mumbai pavements, and the refusal to live a life governed by pity.
+            Mohammad Imran did not emerge from a luxury sports academy. His expertise was forged through neurological adversity, relentless self-training on Mumbai pavements, and the refusal to live a life governed by pity.
           </p>
         </div>
 
         {/* Dual Column Narrative: Photography & Story */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-          
+
           {/* Left Column: Authentic Action Photo & Roots Anchor */}
           <div className="lg:col-span-5 space-y-6">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border-2 border-white bg-zinc-900 aspect-[3/4]">
               <Image
                 src="/images/imran/imran-hyrox-action.jpg"
-                alt="Imran Qureshi propelling his wheelchair with athletic intensity at HYROX Delhi"
+                alt="Mohammad Imran propelling his wheelchair with athletic intensity at HYROX Delhi"
                 fill
                 className="object-cover object-center hover:scale-105 transition-transform duration-500"
                 sizes="(max-width: 1024px) 100vw, 400px"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-              
+
               <div className="absolute bottom-0 inset-x-0 p-6 text-white">
                 <span className="text-[11px] font-mono uppercase tracking-wider text-amber-400 font-bold">
                   ATHLETIC DISCIPLINE
@@ -101,7 +101,7 @@ export default function AboutStory({ isHindi = false }: AboutStoryProps) {
                   &ldquo;A wheelchair user must be an athlete of everyday life. The street is our arena.&rdquo;
                 </p>
                 <div className="mt-2 text-xs text-zinc-400 font-mono">
-                  — Mohammad Imran Qureshi
+                  — Mohammad Imran
                 </div>
               </div>
             </div>

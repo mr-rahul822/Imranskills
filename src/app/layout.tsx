@@ -10,12 +10,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mohammad Imran Qureshi | Imran Skills - Wheelchair Lifestyle Instructor & Adaptive Athlete",
-  description: "Official website of Mohammad Imran Qureshi (Imran Skills). HYROX Delhi Adaptive Champion (01:40:42), Wheelchair Skills Coach, and Community Mentor. Learn to move, travel, and live independently across India.",
+  title: "Mohammad Imran | Imran Skills - Wheelchair Lifestyle Instructor & Adaptive Athlete",
+  description: "Official website of Mohammad Imran (Imran Skills). HYROX Delhi Adaptive Champion (01:40:42), Wheelchair Skills Coach, and Community Mentor. Learn to move, travel, and live independently across India.",
   keywords: [
     "wheelchair skills training India",
     "wheelchair training India",
-    "Mohammad Imran Qureshi",
+    "Mohammad Imran",
     "Imran Skills",
     "wheelchair lifestyle instructor",
     "wheelchair coach India",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     "independent living wheelchair India",
     "wheelchair community India"
   ],
-  authors: [{ name: "Mohammad Imran Qureshi", url: "https://imranskills.com" }],
-  creator: "Mohammad Imran Qureshi",
+  authors: [{ name: "Mohammad Imran", url: "https://imranskills.com" }],
+  creator: "Mohammad Imran",
   publisher: "Imran Skills",
   metadataBase: new URL("https://imranskills.com"),
   openGraph: {
-    title: "Mohammad Imran Qureshi | Imran Skills - Independently Jeena Seekhiye",
-    description: "Practical wheelchair skills, adaptive fitness, and independent-living training coached by HYROX Delhi Adaptive Champion Mohammad Imran Qureshi.",
+    title: "Mohammad Imran | Imran Skills - Independently Jeena Seekhiye",
+    description: "Practical wheelchair skills, adaptive fitness, and independent-living training coached by HYROX Delhi Adaptive Champion Mohammad Imran.",
     url: "https://imranskills.com",
     siteName: "Imran Skills",
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
         url: "/images/imran/imran-hyrox-champion.jpg",
         width: 1200,
         height: 630,
-        alt: "Mohammad Imran Qureshi - HYROX Delhi Adaptive Champion and Wheelchair Skills Coach",
+        alt: "Mohammad Imran - HYROX Delhi Adaptive Champion and Wheelchair Skills Coach",
       },
     ],
     locale: "en_IN",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mohammad Imran Qureshi | Imran Skills",
+    title: "Mohammad Imran | Imran Skills",
     description: "Learn To Move. Learn To Travel. Live Independently. Practical wheelchair skills coaching in India.",
     images: ["/images/imran/imran-hyrox-champion.jpg"],
   },
@@ -68,7 +68,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": ["Person", "SportsPerson"],
     name: SITE_METADATA.name,
-    alternateName: ["Imran Skills", "Imran Qureshi"],
+    alternateName: ["Imran Skills", "Mohammad Imran"],
     jobTitle: "Wheelchair Lifestyle Instructor & Adaptive Athlete",
     description: SITE_METADATA.coreMission,
     url: "https://imranskills.com",

@@ -9,7 +9,7 @@ import BookingSection from '@/components/BookingSection';
 
 export const metadata: Metadata = {
   title: "Book Wheelchair Training & Consultations | Imran Skills",
-  description: "Schedule 1:1 wheelchair skills coaching, online video consultations, or institutional workshop camps with Mohammad Imran Qureshi.",
+  description: "Schedule 1:1 wheelchair skills coaching, online video consultations, or institutional workshop camps with Mohammad Imran.",
 };
 
 export default function BookingPage() {

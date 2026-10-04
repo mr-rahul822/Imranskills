@@ -56,7 +56,7 @@ export default function CommunityPage() {
           <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white aspect-[16/9] bg-zinc-900">
             <Image
               src="/images/imran/imran-hyrox-team.jpg"
-              alt="Imran Qureshi and adaptive athletes celebrating at HYROX Delhi"
+              alt="Mohammad Imran and adaptive athletes celebrating at HYROX Delhi"
               fill
               priority
               className="object-cover object-center"

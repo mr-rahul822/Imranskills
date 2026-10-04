@@ -41,8 +41,8 @@ export interface FAQItem {
 }
 
 export const SITE_METADATA = {
-  name: "Mohammad Imran Qureshi",
-  publicName: "Imran Qureshi",
+  name: "Mohammad Imran",
+  publicName: "Mohammad Imran",
   brandName: "IMRAN SKILLS",
   tagline: "Learn To Move. Learn To Travel. Learn To Live Independently.",
   hindiTagline: "Independently Jeena Seekhiye.",
@@ -437,8 +437,8 @@ export const YOUTUBE_VIDEOS = [
 
 export const FAQ_LIST: FAQItem[] = [
   {
-    question: "Who is Mohammad Imran Qureshi (Imran Skills)?",
-    answer: "Mohammad Imran Qureshi is a renowned Wheelchair Lifestyle Instructor, Wheelchair Skills Coach, Adaptive Athlete, and Disability Community Mentor from Sultanpur (Uttar Pradesh) and Mumbai. He is the champion of HYROX Delhi Adaptive Men (Seated Without Hip Function, 01:40:42), a state swimming gold medalist, and an advocate for independent living through practical skills.",
+    question: "Who is Mohammad Imran (Imran Skills)?",
+    answer: "Mohammad Imran is a renowned Wheelchair Lifestyle Instructor, Wheelchair Skills Coach, Adaptive Athlete, and Disability Community Mentor from Sultanpur (Uttar Pradesh) and Mumbai. He is the champion of HYROX Delhi Adaptive Men (Seated Without Hip Function, 01:40:42), a state swimming gold medalist, and an advocate for independent living through practical skills.",
     category: "Background"
   },
   {

@@ -32,7 +32,7 @@ export default function WhatsAppFloat() {
         rel="noopener noreferrer"
         onMouseEnter={() => setShowTooltip(true)}
         className="w-14 h-14 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow-2xl hover:scale-105 transition-all focus:ring-4 focus:ring-emerald-300 relative group"
-        aria-label="Chat directly with Mohammad Imran Qureshi on WhatsApp at +91 7800222101"
+        aria-label="Chat directly with Mohammad Imran on WhatsApp at +91 7800222101"
       >
         <span className="absolute -top-1 -right-1 w-3.5 h-3.5 rounded-full bg-[#E64A19] border-2 border-white animate-pulse" />
         <MessageCircle className="w-7 h-7" />

@@ -10,7 +10,7 @@ import { HYROX_ACHIEVEMENT, OTHER_ACHIEVEMENTS, MEDIA_CLIPPINGS } from '@/data/s
 
 export const metadata: Metadata = {
   title: "Media, Press Coverage & Achievements | Imran Skills",
-  description: "Official press coverage, newspaper headlines in Hindi, HYROX Delhi Champion details, and Bollywood stunt appearances by Mohammad Imran Qureshi.",
+  description: "Official press coverage, newspaper headlines in Hindi, HYROX Delhi Champion details, and Bollywood stunt appearances by Mohammad Imran.",
 };
 
 export default function MediaPage() {
@@ -48,7 +48,7 @@ export default function MediaPage() {
             </h1>
 
             <p className="text-base sm:text-lg text-[#52525B] leading-relaxed max-w-3xl">
-              Authentic press coverage, newspaper clippings, feature film credits, and athletic championship honors achieved by Mohammad Imran Qureshi.
+              Authentic press coverage, newspaper clippings, feature film credits, and athletic championship honors achieved by Mohammad Imran.
             </p>
           </div>
 

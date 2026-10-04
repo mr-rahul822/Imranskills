@@ -70,7 +70,7 @@ export default function CommunitySection({ isHindi = false }: CommunitySectionPr
             <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-zinc-900 aspect-[4/3] sm:aspect-[16/11]">
               <Image
                 src="/images/imran/imran-hyrox-community.jpg"
-                alt="Imran Qureshi with fellow wheelchair athlete and coach celebrating unity at HYROX Delhi"
+                alt="Mohammad Imran with fellow wheelchair athlete and coach celebrating unity at HYROX Delhi"
                 fill
                 className="object-cover object-center hover:scale-105 transition-transform duration-500"
                 sizes="(max-width: 1024px) 100vw, 550px"

@@ -27,7 +27,7 @@ export default function TrustBanner({ isHindi = false }: TrustBannerProps) {
       images: [
         {
           src: '/images/imran/imran-skills-wheelie-rehab.jpg',
-          alt: 'Imran Qureshi demonstrating two-wheel balance and wheelie techniques to wheelchair users in a Mumbai rehabilitation center',
+          alt: 'Mohammad Imran demonstrating two-wheel balance and wheelie techniques to wheelchair users in a Mumbai rehabilitation center',
           caption: 'Live Rehabilitation Masterclass: Demonstrating two-wheel balance (wheelies) and obstacle clearance before trainees and families.',
           tag: 'Wheelie Balance'
         },
@@ -39,13 +39,13 @@ export default function TrustBanner({ isHindi = false }: TrustBannerProps) {
         },
         {
           src: '/images/imran/imran-hyrox-action.jpg',
-          alt: 'Imran Qureshi pushing at high speed in his wheelchair on track',
+          alt: 'Mohammad Imran pushing at high speed in his wheelchair on track',
           caption: 'Street & Track Agility: Ergonomic hand-rim push mechanics and dynamic obstacle navigation.',
           tag: 'Street Agility'
         },
         {
           src: '/images/imran/imran-gravel-obstacle-skill.jpg',
-          alt: 'Imran Qureshi navigating rough gravel and obstacles with balance control',
+          alt: 'Mohammad Imran navigating rough gravel and obstacles with balance control',
           caption: 'Rough Terrain Mobility: Conquering unpaved paths, gravel stones, and outdoor road obstacles.',
           tag: 'Gravel Obstacles'
         }
@@ -60,13 +60,13 @@ export default function TrustBanner({ isHindi = false }: TrustBannerProps) {
       images: [
         {
           src: '/images/imran/imran-hyrox-champion.jpg',
-          alt: 'Mohammad Imran Qureshi smiling at HYROX Delhi, showing Bib 85001 after winning Adaptive Men Seated',
+          alt: 'Mohammad Imran smiling at HYROX Delhi, showing Bib 85001 after winning Adaptive Men Seated',
           caption: 'HYROX Delhi Champion: Conquering 8 intense functional fitness stations in 01:40:42 in Adaptive Men Seated.',
           tag: 'HYROX Champion'
         },
         {
           src: '/images/imran/imran-hyrox-action.jpg',
-          alt: 'Imran Qureshi in race pace showing upper-body endurance',
+          alt: 'Mohammad Imran in race pace showing upper-body endurance',
           caption: 'Functional Conditioning: Upper body power and rotator cuff protection for everyday stamina.',
           tag: 'Seated Stamina'
         }
@@ -81,19 +81,19 @@ export default function TrustBanner({ isHindi = false }: TrustBannerProps) {
       images: [
         {
           src: '/images/imran/imran-travel-railway.jpg',
-          alt: 'Imran Qureshi and fellow wheelchair traveler inside an Indian Railways train compartment by the window',
+          alt: 'Mohammad Imran and fellow wheelchair traveler inside an Indian Railways train compartment by the window',
           caption: 'Indian Railways Travel: Coach boarding, window berth access, and long-distance train travel by wheelchair.',
           tag: 'Indian Railways'
         },
         {
           src: '/images/imran/imran-travel-airport.jpg',
-          alt: 'Imran Qureshi at airport arrival terminal with luggage and baggage carousel in background',
+          alt: 'Mohammad Imran at airport arrival terminal with luggage and baggage carousel in background',
           caption: 'Airport & Flight Transit: Navigating domestic airport terminals, luggage handling, and flight aisle-chair boarding.',
           tag: 'Airport & Flights'
         },
         {
           src: '/images/imran/imran-portrait.jpg',
-          alt: 'Imran Qureshi in manual wheelchair prepared for travel',
+          alt: 'Mohammad Imran in manual wheelchair prepared for travel',
           caption: 'Solo Commuter Confidence: Independent car transfers, taxi boarding, and public transit navigation.',
           tag: 'Solo Commute'
         }
@@ -143,7 +143,7 @@ export default function TrustBanner({ isHindi = false }: TrustBannerProps) {
   return (
     <section className="bg-white py-16 sm:py-24 border-b border-[#E4E1DA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Editorial Philosophy Statement */}
         <div className="max-w-3xl mx-auto text-center space-y-4 mb-14">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FBE9E7] text-[#E64A19] text-xs font-bold uppercase tracking-widest font-mono">

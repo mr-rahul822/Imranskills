@@ -109,7 +109,7 @@ export default function AchievementsSection({ isHindi = false }: AchievementsSec
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-zinc-700 aspect-[4/5] bg-black">
                 <Image
                   src="/images/imran/imran-hyrox-champion.jpg"
-                  alt="Mohammad Imran Qureshi smiling proudly in front of the HYROX wall with Bib 85001"
+                  alt="Mohammad Imran smiling proudly in front of the HYROX wall with Bib 85001"
                   fill
                   className="object-cover object-top hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 1024px) 100vw, 400px"
@@ -170,7 +170,7 @@ export default function AchievementsSection({ isHindi = false }: AchievementsSec
           <div className="lg:col-span-7 relative aspect-[16/9] sm:aspect-[21/9] rounded-xl overflow-hidden border border-zinc-700 bg-black">
             <Image
               src="/images/imran/newspaper-amar-ujala.jpg"
-              alt="Amar Ujala newspaper article: हौसलों से दे दी दिव्यांगता को शिकस्त featuring Imran Qureshi"
+              alt="Amar Ujala newspaper article: हौसलों से दे दी दिव्यांगता को शिकस्त featuring Mohammad Imran"
               fill
               className="object-cover object-top hover:scale-105 transition-transform duration-500 cursor-pointer"
               sizes="(max-width: 1024px) 100vw, 700px"

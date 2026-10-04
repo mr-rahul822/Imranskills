@@ -34,14 +34,13 @@ export default function Navbar({ onOpenBooking, isHindi = false }: NavbarProps) 
   }, [isOpen]);
 
   const navLinks = [
-    { name: isHindi ? 'परिचय' : 'About', href: '#about' },
-    { name: isHindi ? 'ट्रेनिंग प्रोग्राम्स' : 'Training & Skills', href: '#training' },
-    { name: isHindi ? 'उपलब्धियां' : 'Achievements', href: '#achievements' },
-    { name: isHindi ? 'कम्युनिटी' : 'Community', href: '#community' },
-    { name: isHindi ? 'सुगम यात्रा' : 'Accessible Travel', href: '#travel' },
-    { name: isHindi ? 'वीडियोज' : 'Videos', href: '#videos' },
-    { name: isHindi ? 'मीडिया' : 'Media', href: '#media' },
-    { name: isHindi ? 'गैलरी' : 'Gallery', href: '#gallery' },
+    { name: isHindi ? 'मेरी कहानी' : 'My Story', href: '/story' },
+    { name: isHindi ? 'ट्रेनिंग' : 'Training & Skills', href: '/#training' },
+    { name: isHindi ? 'उपलब्धियां' : 'Achievements', href: '/#achievements' },
+    { name: isHindi ? 'कम्युनिटी' : 'Community', href: '/#community' },
+    { name: isHindi ? 'वीडियोज' : 'Videos', href: '/#videos' },
+    { name: isHindi ? 'मीडिया' : 'Media', href: '/#media' },
+    { name: isHindi ? 'गैलरी' : 'Gallery', href: '/#gallery' },
   ];
 
   return (
@@ -69,7 +68,7 @@ export default function Navbar({ onOpenBooking, isHindi = false }: NavbarProps) 
               </span>
             </div>
             <span className="text-[11px] sm:text-xs text-[#52525B] font-medium tracking-wide">
-              Mohammad Imran Qureshi • Adaptive Athlete & Coach
+              Mohammad Imran • Adaptive Athlete & Coach
             </span>
           </Link>
 

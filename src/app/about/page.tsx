@@ -9,8 +9,8 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 import { SITE_METADATA, OTHER_ACHIEVEMENTS } from '@/data/siteData';
 
 export const metadata: Metadata = {
-  title: "About Mohammad Imran Qureshi | The Story, The Mission & The Athlete",
-  description: "Read the story of Mohammad Imran Qureshi (Imran Skills). From childhood art to overcoming sudden vision loss, navigating a 2009 spinal diagnosis, becoming HYROX Delhi Champion, and empowering wheelchair users across India.",
+  title: "About Mohammad Imran | The Story, The Mission & The Athlete",
+  description: "Read the story of Mohammad Imran (Imran Skills). From childhood art to overcoming sudden vision loss, navigating a 2009 spinal diagnosis, becoming HYROX Delhi Champion, and empowering wheelchair users across India.",
 };
 
 export default function AboutPage() {
@@ -20,7 +20,7 @@ export default function AboutPage() {
 
       <main className="flex-1 py-12 sm:py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-          
+
           {/* Breadcrumb & Top Navigation */}
           <div className="flex items-center justify-between border-b border-[#E4E1DA] pb-6">
             <Link
@@ -39,7 +39,7 @@ export default function AboutPage() {
           {/* Hero Header */}
           <div className="space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FBE9E7] text-[#E64A19] text-xs font-mono font-bold uppercase tracking-wider">
-              <span>MOHAMMAD IMRAN QURESHI</span>
+              <span>MOHAMMAD IMRAN</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-[#121316] uppercase leading-tight">
@@ -57,7 +57,7 @@ export default function AboutPage() {
             <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white aspect-[4/5] bg-zinc-900">
               <Image
                 src="/images/imran/imran-hyrox-champion.jpg"
-                alt="Mohammad Imran Qureshi smiling at HYROX Delhi"
+                alt="Mohammad Imran smiling at HYROX Delhi"
                 fill
                 priority
                 className="object-cover object-top"
@@ -97,7 +97,7 @@ export default function AboutPage() {
 
           {/* Detailed Narrative Chapters */}
           <div className="space-y-12 pt-8 border-t border-[#E4E1DA]">
-            
+
             <section className="space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-xl bg-[#EAE6DF] text-[#121316] flex items-center justify-center">
