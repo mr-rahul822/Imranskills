@@ -1,0 +1,218 @@
+export interface ImageItem {
+  id: string;
+  src: string;
+  alt: string;
+  title: string;
+  category: 'HYROX' | 'TRAINING' | 'COMMUNITY' | 'ADAPTIVE FITNESS' | 'TRAVEL' | 'MEDIA' | 'LIFESTYLE';
+  caption?: string;
+  aspectRatio?: 'square' | 'portrait' | 'landscape';
+  featured?: boolean;
+}
+
+export const GALLERY_IMAGES: ImageItem[] = [
+  {
+    id: 'gravel-obstacle-skill',
+    src: '/images/imran/imran-gravel-obstacle-skill.jpg',
+    alt: 'Imran Qureshi demonstrating rough terrain and loose gravel obstacle negotiation on a wheelchair testing track',
+    title: 'Rough Terrain & Gravel Mobility',
+    category: 'TRAINING',
+    caption: 'Mastering rough outdoor terrain, loose gravel, and unpaved roads through active two-wheel balance and momentum control.',
+    aspectRatio: 'portrait',
+    featured: true,
+  },
+  {
+    id: 'rehab-wheelie-masterclass',
+    src: '/images/imran/imran-skills-wheelie-rehab.jpg',
+    alt: 'Imran Qureshi demonstrating two-wheel balance and wheelie techniques to a hall filled with wheelchair users and families in a Mumbai rehabilitation center',
+    title: 'Wheelchair Balance Masterclass',
+    category: 'TRAINING',
+    caption: 'Imran demonstrating dynamic two-wheel balance (wheelies) before an audience of wheelchair users, families, and therapists at a rehabilitation center.',
+    aspectRatio: 'landscape',
+    featured: true,
+  },
+  {
+    id: 'ottobock-athletes-unity',
+    src: '/images/imran/imran-ottobock-athletes-unity.jpg',
+    alt: 'Imran Qureshi holding hands in solidarity with fellow wheelchair users and adaptive athletes at Ottobock arena',
+    title: 'Solidarity & Adaptive Brotherhood',
+    category: 'COMMUNITY',
+    caption: 'Adaptive athletes holding hands in solidarity. Building community, peer resilience, and self-belief across India.',
+    aspectRatio: 'landscape',
+    featured: true,
+  },
+  {
+    id: 'community-friends-travel',
+    src: '/images/imran/imran-community-friends-travel.jpg',
+    alt: 'Group of wheelchair friends and athletes sitting together on the floor smiling',
+    title: 'Wheelchair Community Travel Circle',
+    category: 'COMMUNITY',
+    caption: 'Traveling and training together: A vibrant network of adaptive athletes and friends sharing life beyond limits.',
+    aspectRatio: 'landscape',
+    featured: true,
+  },
+  {
+    id: 'ottobock-event-team',
+    src: '/images/imran/imran-ottobock-event-team.jpg',
+    alt: 'Imran Qureshi with organizers, coaches, and athletes at a national para athletics sports event',
+    title: 'National Sports & Athletics Meet',
+    category: 'COMMUNITY',
+    caption: 'Imran with coaches, technical organizers, and fellow participants at a national sports championship.',
+    aspectRatio: 'landscape',
+    featured: true,
+  },
+  {
+    id: 'art-portrait-sketch',
+    src: '/images/imran/imran-art-portrait-sketch.jpg',
+    alt: 'Imran in wheelchair holding a framed realistic pencil sketch portrait alongside a friend',
+    title: 'Lifelong Art & Portrait Passion',
+    category: 'LIFESTYLE',
+    caption: 'Imran holding one of his hand-drawn realistic portrait sketches — honoring his passion for art, painting, and visual balance.',
+    aspectRatio: 'portrait',
+    featured: true,
+  },
+  {
+    id: 'travel-railway-journey',
+    src: '/images/imran/imran-travel-railway.jpg',
+    alt: 'Imran Qureshi and fellow wheelchair traveler inside an Indian Railways train compartment by the window',
+    title: 'Indian Railways Wheelchair Travel',
+    category: 'TRAVEL',
+    caption: 'Long-distance intercity train travel across India: Navigating train coach access and window berths independently.',
+    aspectRatio: 'landscape',
+    featured: true,
+  },
+  {
+    id: 'travel-airport-transit',
+    src: '/images/imran/imran-travel-airport.jpg',
+    alt: 'Imran Qureshi at airport arrival terminal with luggage and baggage carousel in background',
+    title: 'Domestic & International Flight Transit',
+    category: 'TRAVEL',
+    caption: 'Navigating airport terminals, baggage handling, and flight aisle-chair transfers with complete autonomy.',
+    aspectRatio: 'landscape',
+    featured: true,
+  },
+  {
+    id: 'newspaper-amar-ujala-clipping',
+    src: '/images/imran/newspaper-amar-ujala.jpg',
+    alt: 'Amar Ujala newspaper feature: हौसलों से दे दी दिव्यांगता को शिकस्त showing Imran balancing on one wheel while holding a wheel in air and a basketball',
+    title: 'Amar Ujala Feature: "हौसलों से दे दी दिव्यांगता को शिकस्त"',
+    category: 'MEDIA',
+    caption: 'Full page coverage in Amar Ujala celebrating Imran as the "Wheelchair Power Man of India", his swimming gold medal in Punjab, and Bollywood stunts with Akshay Kumar.',
+    aspectRatio: 'landscape',
+    featured: true,
+  },
+  {
+    id: 'hyrox-champion-solo',
+    src: '/images/imran/imran-hyrox-champion.jpg',
+    alt: 'Mohammad Imran Qureshi smiling in wheelchair with arms open, showing Bib #85001 after winning HYROX Delhi Adaptive Men',
+    title: 'HYROX Delhi Adaptive Champion',
+    category: 'HYROX',
+    caption: 'Mohammad Imran Qureshi after conquering HYROX Delhi in 01:40:42 in the Adaptive Seated Without Hip Function category.',
+    aspectRatio: 'portrait',
+    featured: true,
+  },
+  {
+    id: 'hyrox-action-track',
+    src: '/images/imran/imran-hyrox-action.jpg',
+    alt: 'Imran Qureshi racing on the indoor track in his wheelchair alongside runners at HYROX Delhi',
+    title: 'Race Pace on the Track',
+    category: 'HYROX',
+    caption: 'Pushing every limit at HYROX Delhi — demonstrating that technique, upper-body conditioning, and sheer determination define an adaptive athlete.',
+    aspectRatio: 'portrait',
+    featured: true,
+  },
+  {
+    id: 'hyrox-community-podium',
+    src: '/images/imran/imran-hyrox-community.jpg',
+    alt: 'Imran Qureshi with fellow wheelchair athlete and coach holding Hitensity banners at HYROX Delhi',
+    title: 'Adaptive Athletes Brotherhood',
+    category: 'COMMUNITY',
+    caption: 'Celebrating shared progress with fellow adaptive athletes and trainers. Community and camaraderie fuel independence.',
+    aspectRatio: 'portrait',
+    featured: true,
+  },
+  {
+    id: 'hyrox-team-flag',
+    src: '/images/imran/imran-hyrox-team.jpg',
+    alt: 'Imran Qureshi and team holding HYROX Delhi flag and Hitensity banner with pride',
+    title: 'Team Spirit at HYROX Delhi',
+    category: 'HYROX',
+    caption: 'Standing proud representing adaptive fitness on the national athletic stage in New Delhi.',
+    aspectRatio: 'portrait',
+    featured: true,
+  },
+  {
+    id: 'imran-portrait-wall',
+    src: '/images/imran/imran-portrait.jpg',
+    alt: 'Portrait of Mohammad Imran Qureshi, Wheelchair Lifestyle Instructor and Coach',
+    title: 'Mohammad Imran Qureshi',
+    category: 'LIFESTYLE',
+    caption: 'Wheelchair Lifestyle Instructor, Adaptive Athlete, and Disability Community Mentor.',
+    aspectRatio: 'portrait',
+    featured: true,
+  },
+  {
+    id: 'ottobock-mobility-team',
+    src: '/images/imran/imran-ottobock-mobility-team.jpg',
+    alt: 'Imran Qureshi seated with arms outstretched in wheelchair with four smiling Ottobock team members in front of the Ottobock booth',
+    title: 'Ottobock Mobility & Independence Team',
+    category: 'COMMUNITY',
+    caption: 'Celebrating freedom and active mobility with the Ottobock team at the national mobility solutions expo.',
+    aspectRatio: 'portrait',
+    featured: true,
+  },
+  {
+    id: 'ottobock-training-track-energy',
+    src: '/images/imran/imran-ottobock-training-track-energy.jpg',
+    alt: 'Imran Qureshi pointing forward alongside a standing teammate flexing biceps and fellow wheelchair user on the mobility obstacle track',
+    title: 'Track Energy & Peer Motivation',
+    category: 'ADAPTIVE FITNESS',
+    caption: 'Testing mobility obstacles, gravel paths, and tactile tracks with high energy and peer camaraderie.',
+    aspectRatio: 'landscape',
+    featured: true,
+  },
+  {
+    id: 'delegates-event-solidarity',
+    src: '/images/imran/imran-delegates-event-solidarity.jpg',
+    alt: 'Imran Qureshi seated in wheelchair wearing Ottobock polo shirt with three fellow delegates and friends in event hall',
+    title: 'Event Delegates & Advocacy Circle',
+    category: 'COMMUNITY',
+    caption: 'Connecting with organizers, advocates, and colleagues during national accessibility and mobility conventions.',
+    aspectRatio: 'portrait',
+    featured: true,
+  },
+  {
+    id: 'volunteers-event-crew',
+    src: '/images/imran/imran-volunteers-event-crew.jpg',
+    alt: 'Imran Qureshi in wheelchair surrounded by four smiling event coordinators and volunteers in green polo shirts',
+    title: 'Youth Volunteers & Event Coordinators',
+    category: 'COMMUNITY',
+    caption: 'Sharing adaptive mobility perspectives and high spirits with dedicated youth coordinators and volunteers.',
+    aspectRatio: 'landscape',
+    featured: true,
+  },
+  {
+    id: 'ottobock-experience-world-group',
+    src: '/images/imran/imran-ottobock-experience-world-group.jpg',
+    alt: 'Large group photo under the Ottobock Experience World banner featuring Imran Qureshi, wheelchair athletes, and the complete event team on purple carpet',
+    title: 'Ottobock Experience World Champions',
+    category: 'COMMUNITY',
+    caption: 'The full squad at Ottobock Experience World — celebrating adaptive athletes, engineers, and champions shaping inclusive mobility.',
+    aspectRatio: 'landscape',
+    featured: true,
+  }
+];
+
+export const HERO_IMAGE = {
+  src: '/images/imran/imran-hyrox-champion.jpg',
+  alt: 'Mohammad Imran Qureshi - HYROX Delhi Adaptive Champion and Wheelchair Lifestyle Instructor',
+};
+
+export const STORY_IMAGE = {
+  src: '/images/imran/imran-skills-wheelie-rehab.jpg',
+  alt: 'Imran Qureshi conducting a live wheelchair skills and balance masterclass',
+};
+
+export const COMMUNITY_HERO_IMAGE = {
+  src: '/images/imran/imran-ottobock-athletes-unity.jpg',
+  alt: 'The Imran Skills Community - adaptive athletes united in solidarity',
+};
