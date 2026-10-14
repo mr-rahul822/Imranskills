@@ -148,8 +148,8 @@ export default function Footer({ isHindi = false }: FooterProps) {
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#FF5722] shrink-0 mt-0.5" />
                 <div>
-                  <span className="font-bold text-white">Roots: </span>
-                  <span>Jnipur / Gyanipur, Bhadaiya Block, Sultanpur district, Uttar Pradesh</span>
+                  <span className="font-bold text-white">Location: </span>
+                  <span>Lucknow, Uttar Pradesh</span>
                 </div>
               </div>
 

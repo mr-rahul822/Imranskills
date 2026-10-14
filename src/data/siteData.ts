@@ -53,8 +53,8 @@ export const SITE_METADATA = {
     "Adaptive Fitness Trainer",
     "Disability Community Mentor"
   ],
-  roots: "Jnipur / Gyanipur, Bhadaiya Block, Sultanpur district, Uttar Pradesh",
-  currentBase: "Mumbai & Sultanpur, Uttar Pradesh, India",
+  roots: "Lucknow, Uttar Pradesh",
+  currentBase: "Mumbai & Lucknow, Uttar Pradesh, India",
   phone: "+91 7800222101",
   whatsapp: "+917800222101",
   whatsappDisplay: "+91 7800222101",
@@ -438,7 +438,7 @@ export const YOUTUBE_VIDEOS = [
 export const FAQ_LIST: FAQItem[] = [
   {
     question: "Who is Mohammad Imran (Imran Skills)?",
-    answer: "Mohammad Imran is a renowned Wheelchair Lifestyle Instructor, Wheelchair Skills Coach, Adaptive Athlete, and Disability Community Mentor from Sultanpur (Uttar Pradesh) and Mumbai. He is the champion of HYROX Delhi Adaptive Men (Seated Without Hip Function, 01:40:42), a state swimming gold medalist, and an advocate for independent living through practical skills.",
+    answer: "Mohammad Imran is a renowned Wheelchair Lifestyle Instructor, Wheelchair Skills Coach, Adaptive Athlete, and Disability Community Mentor from Lucknow (Uttar Pradesh) and Mumbai. He is the champion of HYROX Delhi Adaptive Men (Seated Without Hip Function, 01:40:42), a state swimming gold medalist, and an advocate for independent living through practical skills.",
     category: "Background"
   },
   {

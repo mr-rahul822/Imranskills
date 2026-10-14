@@ -106,16 +106,16 @@ export default function AboutStory({ isHindi = false }: AboutStoryProps) {
               </div>
             </div>
 
-            {/* Geographic Roots Card */}
+            {/* Geographic Location Card */}
             <div className="p-5 rounded-xl bg-white border border-[#E4E1DA] space-y-2">
               <div className="text-[11px] font-bold uppercase tracking-wider text-[#717682] font-mono">
-                ORIGINS & HERITAGE
+                LOCATION & BASE
               </div>
               <h4 className="text-base font-bold text-[#121316]">
-                Jnipur / Gyanipur, Bhadaiya Block
+                Lucknow, Uttar Pradesh
               </h4>
               <p className="text-xs text-[#52525B]">
-                Sultanpur District, Uttar Pradesh, India • Mentoring individuals across India.
+                Uttar Pradesh, India • Mentoring individuals across India.
               </p>
             </div>
           </div>

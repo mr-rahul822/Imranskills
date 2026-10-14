@@ -79,7 +79,7 @@ export default function RootLayout({
     ],
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Sultanpur",
+      addressLocality: "Lucknow",
       addressRegion: "Uttar Pradesh",
       addressCountry: "IN"
     },

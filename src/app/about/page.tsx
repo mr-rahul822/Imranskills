@@ -48,7 +48,7 @@ export default function AboutPage() {
             </h1>
 
             <p className="text-lg sm:text-xl text-[#4A4E57] max-w-3xl leading-relaxed">
-              Wheelchair Lifestyle Instructor, Adaptive Athlete, and Disability Community Mentor with roots in Jnipur / Gyanipur, Bhadaiya Block, Sultanpur district, Uttar Pradesh.
+              Wheelchair Lifestyle Instructor, Adaptive Athlete, and Disability Community Mentor with roots in Lucknow, Uttar Pradesh.
             </p>
           </div>
 
