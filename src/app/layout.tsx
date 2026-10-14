@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mohammad Imran | Imran Skills - Wheelchair Lifestyle Instructor & Adaptive Athlete",
+  title: "Mohammad Imran | Wheelchair Lifestyle Instructor",
   description: "Official website of Mohammad Imran (Imran Skills). HYROX Delhi Adaptive Champion (01:40:42), Wheelchair Skills Coach, and Community Mentor. Learn to move, travel, and live independently across India.",
   keywords: [
     "wheelchair skills training India",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   publisher: "Imran Skills",
   metadataBase: new URL("https://imranskills.com"),
   openGraph: {
-    title: "Mohammad Imran | Imran Skills - Independently Jeena Seekhiye",
+    title: "Mohammad Imran | Wheelchair Lifestyle Instructor",
     description: "Practical wheelchair skills, adaptive fitness, and independent-living training coached by HYROX Delhi Adaptive Champion Mohammad Imran.",
     url: "https://imranskills.com",
     siteName: "Imran Skills",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
         url: "/images/imran/imran-hyrox-champion.jpg",
         width: 1200,
         height: 630,
-        alt: "Mohammad Imran - HYROX Delhi Adaptive Champion and Wheelchair Skills Coach",
+        alt: "Mohammad Imran - HYROX Delhi Adaptive Champion and Wheelchair Lifestyle Instructor",
       },
     ],
     locale: "en_IN",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mohammad Imran | Imran Skills",
+    title: "Mohammad Imran | Wheelchair Lifestyle Instructor",
     description: "Learn To Move. Learn To Travel. Live Independently. Practical wheelchair skills coaching in India.",
     images: ["/images/imran/imran-hyrox-champion.jpg"],
   },

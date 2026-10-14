@@ -68,7 +68,7 @@ export default function Navbar({ onOpenBooking, isHindi = false }: NavbarProps) 
               </span>
             </div>
             <span className="text-[11px] sm:text-xs text-[#52525B] font-medium tracking-wide">
-              Mohammad Imran • Adaptive Athlete & Coach
+              Mohammad Imran • Wheelchair Lifestyle Instructor
             </span>
           </Link>
 
