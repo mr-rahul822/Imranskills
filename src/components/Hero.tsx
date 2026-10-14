@@ -38,20 +38,19 @@ export default function Hero({ onOpenBooking, onOpenVideo, isHindi = false }: He
             {/* Central Empowering Headlines */}
             <div className="space-y-3">
               <div className="inline-block">
-                <span className="text-sm sm:text-base font-extrabold uppercase tracking-widest text-[#E64A19] font-mono">
-                  {isHindi ? 'आत्मनिर्भरता • गतिशीलता • कौशल' : 'INDEPENDENCE • MOBILITY • SKILLS'}
+                <span className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-[#E64A19] font-mono">
+                  {isHindi ? 'व्हीलचेयर ट्रेनर • स्किल्स कोच • अडैप्टिव एथलीट' : 'WHEELCHAIR TRAINER • SKILLS COACH • ADAPTIVE ATHLETE'}
                 </span>
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-[#121316] leading-[1.08] uppercase">
                 {isHindi ? (
                   <>
-                    पहियों पर आत्मनिर्भरता। <br />
+                    भारत के प्रमुख व्हीलचेयर ट्रेनर। <br />
                     <span className="text-[#E64A19]">Independently</span> जीना सीखिए।
                   </>
                 ) : (
                   <>
-                    Learn To Move. <br />
-                    Learn To Travel. <br />
+                    Wheelchair Trainer &amp; Coach. <br />
                     <span className="text-[#E64A19]">Live Independently.</span>
                   </>
                 )}
@@ -63,7 +62,7 @@ export default function Hero({ onOpenBooking, onOpenVideo, isHindi = false }: He
 
             {/* Factual, Trust-Building Supporting Copy */}
             <p className="text-base sm:text-lg text-[#4A4E57] max-w-2xl leading-relaxed">
-              Practical wheelchair handling, curb navigation, independent transfers, and adaptive fitness coached by someone who has lived every step, won on the athletic stage, and taught wheelchair users across India to claim their independence without sympathy.
+              Specialized 1-on-1 wheelchair skills training, curb climbing, independent car &amp; bed transfers, and adaptive fitness coached by HYROX Delhi Champion Mohammad Imran. Empowering wheelchair users across India to claim their independence without sympathy.
             </p>
 
             {/* Action Buttons & CTAs */}
@@ -109,11 +108,11 @@ export default function Hero({ onOpenBooking, onOpenVideo, isHindi = false }: He
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#E64A19] shrink-0" />
-                <span>Real Street Navigation</span>
+                <span>Real Street &amp; Curb Mastery</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#E64A19] shrink-0" />
-                <span>Peer-Led Coaching</span>
+                <span>In-Person &amp; Virtual Coaching</span>
               </div>
             </div>
 

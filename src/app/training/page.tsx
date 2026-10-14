@@ -8,8 +8,40 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 import { TRAINING_PROGRAMS } from '@/data/siteData';
 
 export const metadata: Metadata = {
-  title: "Wheelchair Skills & Adaptive Fitness Programs | Imran Skills",
-  description: "Explore 6 specialized wheelchair training programs: Beginner Handling, Advanced Curbs & Obstacles, Transfer Skills, Independent Travel, Adaptive Fitness, and Institutional Camps.",
+  title: "Wheelchair Skills Training & Coaching Programs | Mohammad Imran",
+  description: "Comprehensive 1-on-1 wheelchair skills training in India: curb climbing, two-wheel balance (wheelies), independent car & bed transfers, and adaptive fitness coached by Mohammad Imran.",
+  keywords: [
+    "wheelchair skills training",
+    "wheelchair trainer India",
+    "wheelchair instructor",
+    "wheelchair coach",
+    "wheelchair curb climbing",
+    "wheelchair transfer training",
+    "wheelchair mobility classes",
+    "adaptive fitness coaching",
+    "wheelchair training Lucknow",
+    "wheelchair coach Mumbai",
+    "Mohammad Imran training"
+  ],
+  alternates: {
+    canonical: "https://imranskills.com/training",
+  },
+  openGraph: {
+    title: "Wheelchair Skills Training & Coaching Programs | Mohammad Imran",
+    description: "6 practical modules: Street Maneuvering, Curb Climbing, Transfer Mechanics, Transit Navigation, Adaptive Fitness & Institutional Workshops.",
+    url: "https://imranskills.com/training",
+    siteName: "Imran Skills",
+    images: [
+      {
+        url: "https://imranskills.com/images/imran/imran-gravel-obstacle-skill.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Wheelchair Skills Training by Mohammad Imran",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
 };
 
 const iconMap: Record<string, React.ElementType> = {
@@ -51,12 +83,12 @@ export default function TrainingPage() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-[#121316] uppercase leading-tight">
-              Practical Wheelchair Skills <br />
-              <span className="text-[#E64A19]">& Adaptive Conditioning.</span>
+              Wheelchair Skills Training <br />
+              <span className="text-[#E64A19]">&amp; Coaching Programs.</span>
             </h1>
 
             <p className="text-base sm:text-lg text-[#52525B] leading-relaxed">
-              Every curriculum is built from lived experience, biomechanical principles, and real Indian street and transport obstacles.
+              Structured 1-on-1 wheelchair mobility curricula coached by Mohammad Imran. Built from lived experience, clinical biomechanics, and battle-tested on real Indian roads, curb drops, and public transit.
             </p>
           </div>
 

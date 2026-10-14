@@ -9,8 +9,34 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 import { HYROX_ACHIEVEMENT, OTHER_ACHIEVEMENTS, MEDIA_CLIPPINGS } from '@/data/siteData';
 
 export const metadata: Metadata = {
-  title: "Media, Press Coverage & Achievements | Imran Skills",
-  description: "Official press coverage, newspaper headlines in Hindi, HYROX Delhi Champion details, and Bollywood stunt appearances by Mohammad Imran.",
+  title: "Media, Press Coverage & Achievements | Mohammad Imran",
+  description: "Official press coverage, Amar Ujala newspaper features, HYROX Delhi Champion details, and Bollywood stunt appearances by Mohammad Imran.",
+  keywords: [
+    "Mohammad Imran media",
+    "HYROX Delhi adaptive champion press",
+    "Mohammad Imran Bollywood Holiday",
+    "wheelchair power man of India",
+    "Amar Ujala Imran Qureshi"
+  ],
+  alternates: {
+    canonical: "https://imranskills.com/media",
+  },
+  openGraph: {
+    title: "Media & Press Coverage | Mohammad Imran",
+    description: "Official news coverage, championship results, and media stories of Mohammad Imran.",
+    url: "https://imranskills.com/media",
+    siteName: "Imran Skills",
+    images: [
+      {
+        url: "https://imranskills.com/images/imran/imran-hyrox-champion.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Mohammad Imran press and achievements",
+      },
+    ],
+    locale: "en_IN",
+    type: "article",
+  },
 };
 
 export default function MediaPage() {

@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X, PhoneCall, ArrowRight, MessageCircle } from 'lucide-react';
 import { SITE_METADATA } from '@/data/siteData';
+import AnimatedWheelchairLogo from '@/components/AnimatedWheelchairLogo';
 
 interface NavbarProps {
   onOpenBooking?: () => void;
@@ -39,7 +40,7 @@ export default function Navbar({ onOpenBooking, isHindi = false }: NavbarProps) 
     { name: isHindi ? 'उपलब्धियां' : 'Achievements', href: '/#achievements' },
     { name: isHindi ? 'कम्युनिटी' : 'Community', href: '/#community' },
     { name: isHindi ? 'वीडियोज' : 'Videos', href: '/#videos' },
-    { name: isHindi ? 'मीडिया' : 'Media', href: '/#media' },
+    { name: isHindi ? 'मीडिया' : 'Media', href: '/media' },
     { name: isHindi ? 'गैलरी' : 'Gallery', href: '/#gallery' },
   ];
 
@@ -56,20 +57,23 @@ export default function Navbar({ onOpenBooking, isHindi = false }: NavbarProps) 
           {/* Logo & Brand Identity */}
           <Link
             href="/"
-            className="group flex flex-col focus:ring-2 focus:ring-[#E64A19] rounded-md p-1 -ml-1"
+            className="group flex items-center gap-3 focus:ring-2 focus:ring-[#E64A19] rounded-xl p-1 -ml-1 transition-all"
             aria-label="Imran Skills homepage"
           >
-            <div className="flex items-center gap-2">
-              <span className="text-2xl sm:text-3xl font-black tracking-tight text-[#121316] uppercase font-mono group-hover:text-[#E64A19] transition-colors">
-                IMRAN<span className="text-[#E64A19]">.</span>SKILLS
-              </span>
-              <span className="hidden md:inline-block px-2 py-0.5 text-[10px] font-bold tracking-wider uppercase bg-[#121316] text-[#F8F7F4] rounded">
-                Official
+            <AnimatedWheelchairLogo size={42} />
+            <div className="flex flex-col">
+              <div className="flex items-center gap-2">
+                <span className="text-xl sm:text-2xl font-black tracking-tight text-[#121316] uppercase font-mono group-hover:text-[#E64A19] transition-colors leading-none">
+                  IMRAN<span className="text-[#E64A19]">.</span>SKILLS
+                </span>
+                <span className="hidden md:inline-block px-1.5 py-0.5 text-[9px] font-bold tracking-wider uppercase bg-[#121316] text-[#F8F7F4] rounded leading-none">
+                  Official
+                </span>
+              </div>
+              <span className="text-[10px] sm:text-[11px] text-[#52525B] font-medium tracking-wide mt-1">
+                Mohammad Imran • Wheelchair Lifestyle Instructor
               </span>
             </div>
-            <span className="text-[11px] sm:text-xs text-[#52525B] font-medium tracking-wide">
-              Mohammad Imran • Wheelchair Lifestyle Instructor
-            </span>
           </Link>
 
           {/* Desktop Navigation Links */}

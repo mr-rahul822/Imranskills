@@ -9,8 +9,34 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 import { SITE_METADATA } from '@/data/siteData';
 
 export const metadata: Metadata = {
-  title: "The Imran Skills Community | Wheelchair Peer Support & Camps",
-  description: "Join the Imran Skills Wheelchair Community. Peer-to-peer mentoring, accessible travel knowledge, outdoor training camps, and WhatsApp group updates.",
+  title: "The Imran Skills Community | Wheelchair Peer Support & Training",
+  description: "Join the Imran Skills Wheelchair Community: active peer mentoring, outdoor wheelchair mobility camps, accessible travel meetups, and WhatsApp peer network across India.",
+  keywords: [
+    "wheelchair community India",
+    "wheelchair peer support",
+    "wheelchair group India",
+    "spinal cord injury community India",
+    "Mohammad Imran community"
+  ],
+  alternates: {
+    canonical: "https://imranskills.com/community",
+  },
+  openGraph: {
+    title: "The Imran Skills Community | Wheelchair Peer Support",
+    description: "Peer mentoring, accessible outdoor workshops, and active community for wheelchair users across India.",
+    url: "https://imranskills.com/community",
+    siteName: "Imran Skills",
+    images: [
+      {
+        url: "https://imranskills.com/images/imran/imran-community-friends-travel.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Imran Skills Wheelchair Community",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
 };
 
 export default function CommunityPage() {

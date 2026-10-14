@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { Trophy, Medal, Film, Newspaper, Clock, Hash, CheckCircle, ArrowUpRight } from 'lucide-react';
-import { HYROX_ACHIEVEMENT, OTHER_ACHIEVEMENTS, MEDIA_CLIPPINGS } from '@/data/siteData';
+import { Trophy, Medal, Film, Clock, Hash, CheckCircle, ArrowUpRight } from 'lucide-react';
+import { HYROX_ACHIEVEMENT, OTHER_ACHIEVEMENTS } from '@/data/siteData';
 
 interface AchievementsSectionProps {
   isHindi?: boolean;
@@ -163,63 +163,6 @@ export default function AchievementsSection({ isHindi = false }: AchievementsSec
               </div>
             );
           })}
-        </div>
-
-        {/* Real Newspaper Clipping Visual Banner */}
-        <div className="mb-8 rounded-2xl overflow-hidden border border-[#2A2D36] bg-[#1A1C22] p-4 sm:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-          <div className="lg:col-span-7 relative aspect-[16/9] sm:aspect-[21/9] rounded-xl overflow-hidden border border-zinc-700 bg-black">
-            <Image
-              src="/images/imran/newspaper-amar-ujala.jpg"
-              alt="Amar Ujala newspaper article: हौसलों से दे दी दिव्यांगता को शिकस्त featuring Mohammad Imran"
-              fill
-              className="object-cover object-top hover:scale-105 transition-transform duration-500 cursor-pointer"
-              sizes="(max-width: 1024px) 100vw, 700px"
-            />
-          </div>
-          <div className="lg:col-span-5 space-y-3">
-            <span className="text-xs font-mono font-bold uppercase text-amber-400">
-              AMAR UJALA SPECIAL FEATURE
-            </span>
-            <h4 className="text-xl sm:text-2xl font-bold text-white tracking-tight leading-snug">
-              &ldquo;हौसलों से दे दी दिव्यांगता को शिकस्त&rdquo;
-            </h4>
-            <p className="text-xs sm:text-sm text-zinc-300 leading-relaxed">
-              Featured on World Disability Day: Chronicling Imran&apos;s journey from Sultanpur, state swimming gold in Punjab, stunts with Akshay Kumar in &apos;Holiday&apos;, and his mentorship as the &ldquo;Wheelchair Power Man of India&rdquo;.
-            </p>
-          </div>
-        </div>
-
-        {/* Media & Newspaper Headlines Editorial Section */}
-        <div id="media" className="pt-6 border-t border-[#2A2D36] scroll-mt-20">
-          <div className="flex items-center gap-2 text-xs font-mono font-bold text-amber-400 uppercase tracking-widest mb-6">
-            <Newspaper className="w-4 h-4" />
-            <span>PRINT & REGIONAL MEDIA COVERAGE</span>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {MEDIA_CLIPPINGS.map((clip) => (
-              <div
-                key={clip.id}
-                className="p-6 rounded-2xl bg-[#1A1C22] border border-[#2A2D36] space-y-3 relative group"
-              >
-                <div className="text-xs font-mono text-zinc-400 uppercase">
-                  {clip.source}
-                </div>
-
-                <blockquote className="text-xl sm:text-2xl font-black text-white tracking-tight leading-snug">
-                  &ldquo;{clip.hindiHeadline}&rdquo;
-                </blockquote>
-
-                <p className="text-xs sm:text-sm text-zinc-300 italic">
-                  Translation: &ldquo;{clip.englishTranslation}&rdquo;
-                </p>
-
-                <p className="text-xs text-zinc-500 pt-2 border-t border-zinc-800">
-                  {clip.focus}
-                </p>
-              </div>
-            ))}
-          </div>
         </div>
 
       </div>

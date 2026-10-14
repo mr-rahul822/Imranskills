@@ -47,10 +47,11 @@ export const SITE_METADATA = {
   tagline: "Learn To Move. Learn To Travel. Learn To Live Independently.",
   hindiTagline: "Independently Jeena Seekhiye.",
   roles: [
-    "Wheelchair Lifestyle Instructor",
+    "Wheelchair Trainer",
     "Wheelchair Skills Coach",
+    "Wheelchair Lifestyle Instructor",
+    "Adaptive Fitness Coach",
     "Adaptive Athlete",
-    "Adaptive Fitness Trainer",
     "Disability Community Mentor"
   ],
   roots: "Lucknow, Uttar Pradesh",
@@ -475,5 +476,20 @@ export const FAQ_LIST: FAQItem[] = [
     question: "Does Imran teach safe transfers (car, bed, toilet)?",
     answer: "Yes, transfer training is one of the most transformative skills. Imran teaches ergonomic transfer mechanics using head-hips leverage so that wheelchair users can move between bed, commode, chair, and car seats without needing to be lifted by family members.",
     category: "Training"
+  },
+  {
+    question: "What is the difference between physical therapy and a professional wheelchair trainer?",
+    answer: "Physical therapy focuses on medical rehabilitation, neuromuscular recovery, and muscle range-of-motion in a clinical setting. A specialized wheelchair trainer and skills coach bridges the gap between the clinic and real life: teaching you how to mount 4-6 inch roadside curbs, balance on two wheels (wheelies) over obstacles, independently transfer into standard cars and trains, prevent chronic shoulder impingement, and navigate Indian streets with confidence.",
+    category: "Coaching"
+  },
+  {
+    question: "Can beginners or newly injured wheelchair users learn curb climbing and wheelies safely?",
+    answer: "Yes, absolutely. Imran uses structured, gradual biomechanical progressions paired with spotter safety straps and balance control drills. Trainees start with basic center-of-gravity awareness and caster elevation on flat surfaces before progressing to outdoor ramps, road cracks, gravel, and street curbs. Every drill is tailored to your level of injury and functional strength.",
+    category: "Training"
+  },
+  {
+    question: "In which cities does Mohammad Imran offer in-person wheelchair coaching?",
+    answer: "Mohammad Imran provides in-person 1-on-1 wheelchair training and group masterclasses primarily in Lucknow (Uttar Pradesh), Delhi NCR, and Mumbai (Maharashtra). He also travels across India for institutional workshops, spinal injury rehabilitation camps, and non-profit masterclasses, and offers 1:1 virtual video mobility consultations for clients nationwide.",
+    category: "Coaching"
   }
 ];

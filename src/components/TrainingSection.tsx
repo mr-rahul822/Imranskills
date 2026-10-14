@@ -59,19 +59,19 @@ export default function TrainingSection({ onSelectProgram, isHindi = false }: Tr
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#121316] tracking-tight uppercase leading-tight">
             {isHindi ? (
               <>
-                वास्तविक जीवन के लिए <br />
-                <span className="text-[#E64A19]">प्रैक्टिकल व्हीलचेयर ट्रेनिंग।</span>
+                प्रैक्टिकल व्हीलचेयर ट्रेनिंग मॉड्यूल्स। <br />
+                <span className="text-[#E64A19]">वास्तविक जीवन की आत्मनिर्भरता।</span>
               </>
             ) : (
               <>
-                Skills For Real Life. <br />
-                <span className="text-[#E64A19]">Not Just Hospital Corridors.</span>
+                Wheelchair Skills Training Modules. <br />
+                <span className="text-[#E64A19]">Real Life, Not Just Corridors.</span>
               </>
             )}
           </h2>
 
           <p className="text-base sm:text-lg text-[#52525B] leading-relaxed">
-            Six comprehensive, structured training tracks designed to build independent muscle memory, street competence, and bodily resilience for wheelchair users and their families.
+            Six structured wheelchair training tracks taught by specialized coach Mohammad Imran. Designed to build functional muscle memory, outdoor curb competence, two-wheel balance, and independent living for wheelchair users across India.
           </p>
         </div>
 

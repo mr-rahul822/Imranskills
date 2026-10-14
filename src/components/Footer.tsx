@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { InstagramIcon, YouTubeIcon } from './SocialIcons';
 import { SITE_METADATA } from '@/data/siteData';
+import AnimatedWheelchairLogo from './AnimatedWheelchairLogo';
 
 interface FooterProps {
   isHindi?: boolean;
@@ -35,13 +36,16 @@ export default function Footer({ isHindi = false }: FooterProps) {
           
           {/* Brand Identity & Mission (Col 1-5) */}
           <div className="lg:col-span-5 space-y-5">
-            <div>
-              <div className="text-2xl sm:text-3xl font-black tracking-tight uppercase font-mono text-white">
-                IMRAN<span className="text-[#FF5722]">.</span>SKILLS
+            <div className="flex items-center gap-3.5">
+              <AnimatedWheelchairLogo size={46} isDark />
+              <div>
+                <div className="text-2xl sm:text-3xl font-black tracking-tight uppercase font-mono text-white leading-none">
+                  IMRAN<span className="text-[#FF5722]">.</span>SKILLS
+                </div>
+                <p className="text-xs font-mono text-zinc-400 mt-1 uppercase tracking-wider">
+                  Mohammad Imran • Wheelchair Lifestyle Instructor
+                </p>
               </div>
-              <p className="text-xs font-mono text-zinc-400 mt-1 uppercase tracking-wider">
-                Mohammad Imran • Official Platform
-              </p>
             </div>
 
             <p className="text-sm text-zinc-300 max-w-sm leading-relaxed">

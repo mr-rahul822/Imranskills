@@ -15,7 +15,7 @@ export default function AboutStory({ isHindi = false }: AboutStoryProps) {
       year: "Childhood",
       title: "Passion for Art & Colors",
       icon: Palette,
-      text: "From early years in Sultanpur, Uttar Pradesh, Imran held a deep love for painting and visual art — a creative perspective that later shaped his philosophy of rhythm, balance, and aesthetic control."
+      text: "From early years in Uttar Pradesh, Imran held a deep love for painting and visual art — a creative perspective that later shaped his philosophy of rhythm, balance, and aesthetic control."
     },
     {
       year: "Age 17",
@@ -68,13 +68,13 @@ export default function AboutStory({ isHindi = false }: AboutStoryProps) {
             ) : (
               <>
                 Turning Adversity Into Mastery. <br />
-                <span className="text-[#E64A19]">From Sultanpur to the National Stage.</span>
+                <span className="text-[#E64A19]">From Grassroots To The National Stage.</span>
               </>
             )}
           </h2>
 
           <p className="text-base sm:text-lg text-[#4A4E57] leading-relaxed">
-            Mohammad Imran did not emerge from a luxury sports academy. His expertise was forged through neurological adversity, relentless self-training on Mumbai pavements, and the refusal to live a life governed by pity.
+            Mohammad Imran did not emerge from a luxury sports academy. His expertise as a specialized wheelchair trainer and adaptive athlete was forged through neurological adversity, relentless self-training on Mumbai pavements, and the refusal to live a life governed by pity. Today, he coaches wheelchair users across India to achieve complete real-world autonomy.
           </p>
         </div>
 

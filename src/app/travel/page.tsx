@@ -8,8 +8,35 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 import { TRAVEL_GUIDE_CARDS } from '@/data/siteData';
 
 export const metadata: Metadata = {
-  title: "Accessible Travel in India | Practical Wheelchair Transit Guide",
-  description: "Tested wheelchair travel guidelines for India: Indian Railways train boarding, Metro station lifts, domestic airport aisle chairs, and accessible hotel verification.",
+  title: "Accessible Wheelchair Travel in India | Practical Transit Guide",
+  description: "Real-world wheelchair travel guide for India by Mohammad Imran: Indian Railways train boarding, Metro navigation, airport aisle chair protocols, and street transit tips.",
+  keywords: [
+    "accessible travel India",
+    "wheelchair train travel India",
+    "wheelchair airport aisle chair",
+    "accessible metro India",
+    "wheelchair travel guide",
+    "Mohammad Imran travel coach"
+  ],
+  alternates: {
+    canonical: "https://imranskills.com/travel",
+  },
+  openGraph: {
+    title: "Accessible Wheelchair Travel in India | Practical Guide",
+    description: "Battle-tested wheelchair travel guidelines for Indian Railways, flights, metros, and street navigation.",
+    url: "https://imranskills.com/travel",
+    siteName: "Imran Skills",
+    images: [
+      {
+        url: "https://imranskills.com/images/imran/imran-travel-railway.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Mohammad Imran wheelchair travel in Indian Railways",
+      },
+    ],
+    locale: "en_IN",
+    type: "article",
+  },
 };
 
 const categoryIcons = {

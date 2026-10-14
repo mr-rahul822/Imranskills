@@ -9,8 +9,37 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 import { SITE_METADATA, OTHER_ACHIEVEMENTS } from '@/data/siteData';
 
 export const metadata: Metadata = {
-  title: "About Mohammad Imran | The Story, The Mission & The Athlete",
-  description: "Read the story of Mohammad Imran (Imran Skills). From childhood art to overcoming sudden vision loss, navigating a 2009 spinal diagnosis, becoming HYROX Delhi Champion, and empowering wheelchair users across India.",
+  title: "About Mohammad Imran | Wheelchair Trainer, Skills Coach & Athlete",
+  description: "Learn about Mohammad Imran: HYROX Delhi Champion, Premier Wheelchair Trainer, and Adaptive Skills Coach empowering wheelchair users to live independently across India.",
+  keywords: [
+    "About Mohammad Imran",
+    "wheelchair trainer",
+    "wheelchair trainer India",
+    "wheelchair instructor",
+    "wheelchair coach",
+    "Mohammad Imran bio",
+    "wheelchair power man of India",
+    "adaptive athlete biography"
+  ],
+  alternates: {
+    canonical: "https://imranskills.com/about",
+  },
+  openGraph: {
+    title: "About Mohammad Imran | Wheelchair Trainer & Skills Coach",
+    description: "The story, athletic achievements, and wheelchair skills training mission of Mohammad Imran.",
+    url: "https://imranskills.com/about",
+    siteName: "Imran Skills",
+    images: [
+      {
+        url: "https://imranskills.com/images/imran/imran-portrait.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Mohammad Imran - Wheelchair Trainer and Athlete",
+      },
+    ],
+    locale: "en_IN",
+    type: "profile",
+  },
 };
 
 export default function AboutPage() {

@@ -8,8 +8,37 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 import BookingSection from '@/components/BookingSection';
 
 export const metadata: Metadata = {
-  title: "Book Wheelchair Training & Consultations | Imran Skills",
-  description: "Schedule 1:1 wheelchair skills coaching, online video consultations, or institutional workshop camps with Mohammad Imran.",
+  title: "Book Wheelchair Training & Consultations | Mohammad Imran",
+  description: "Book 1:1 wheelchair skills coaching, virtual consultations, or institutional disability mobility workshops with Mohammad Imran.",
+  keywords: [
+    "hire wheelchair trainer",
+    "book wheelchair instructor",
+    "wheelchair coach India",
+    "personal wheelchair trainer",
+    "wheelchair trainer near me",
+    "wheelchair mobility coach",
+    "wheelchair skills consultation",
+    "Mohammad Imran booking"
+  ],
+  alternates: {
+    canonical: "https://imranskills.com/booking",
+  },
+  openGraph: {
+    title: "Book Wheelchair Training & Consultations | Mohammad Imran",
+    description: "Personal 1:1 coaching, online video sessions, and corporate/NGO workshops across India.",
+    url: "https://imranskills.com/booking",
+    siteName: "Imran Skills",
+    images: [
+      {
+        url: "https://imranskills.com/images/imran/imran-hyrox-champion.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Book training with Mohammad Imran",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
 };
 
 export default function BookingPage() {
