@@ -33,6 +33,7 @@ export default function PillarGalleryModal({
 
   // Sync initial index when modal opens
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setCurrentIndex(initialIndex);
     setIsPlaying(true);
   }, [initialIndex, isOpen]);

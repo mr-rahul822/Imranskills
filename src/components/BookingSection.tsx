@@ -41,6 +41,7 @@ export default function BookingSection({ initialProgramId, isHindi = false }: Bo
     if (initialProgramId) {
       const prog = TRAINING_PROGRAMS.find((p) => p.id === initialProgramId);
       if (prog) {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setFormData((prev) => ({
           ...prev,
           skillFocus: prog.title.replace(/^\d+\.\s*/, '')

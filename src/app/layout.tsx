@@ -10,6 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  // Primary metadata for search engines and social link previews (WhatsApp, Twitter, OpenGraph)
   title: {
     default: "Mohammad Imran | Wheelchair Lifestyle Instructor",
     template: "%s | Mohammad Imran - Wheelchair Lifestyle Instructor"
