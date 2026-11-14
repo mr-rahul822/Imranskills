@@ -11,11 +11,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Wheelchair Trainer & Skills Coach India | Mohammad Imran",
-    template: "%s | Mohammad Imran - Wheelchair Trainer"
+    default: "Mohammad Imran | Wheelchair Lifestyle Instructor",
+    template: "%s | Mohammad Imran - Wheelchair Lifestyle Instructor"
   },
-  description: "India's premier wheelchair trainer & skills coach Mohammad Imran (HYROX Delhi Champion). Practical 1-on-1 wheelchair mobility training, curb climbing, transfers & adaptive fitness across India.",
+  description: "Official platform of Mohammad Imran (HYROX Delhi Champion). Wheelchair Lifestyle Instructor & Skills Coach offering practical 1-on-1 wheelchair mobility training, curb climbing, transfers & adaptive fitness across India.",
   keywords: [
+    "wheelchair lifestyle instructor",
+    "Mohammad Imran",
+    "Imran Skills",
     "wheelchair trainer",
     "wheelchair trainer India",
     "wheelchair instructor",
@@ -27,9 +30,6 @@ export const metadata: Metadata = {
     "wheelchair trainer Lucknow",
     "wheelchair trainer Mumbai",
     "wheelchair trainer Delhi",
-    "wheelchair lifestyle instructor",
-    "Mohammad Imran",
-    "Imran Skills",
     "adaptive fitness coach",
     "adaptive athlete India",
     "HYROX Delhi adaptive champion",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   publisher: "Imran Skills",
   metadataBase: new URL("https://imranskills.com"),
   openGraph: {
-    title: "Wheelchair Trainer & Skills Coach India | Mohammad Imran",
+    title: "Mohammad Imran | Wheelchair Lifestyle Instructor",
     description: "Learn practical wheelchair skills, curb climbing, independent transfers, and adaptive fitness coached by HYROX Delhi Champion Mohammad Imran.",
     url: "https://imranskills.com",
     siteName: "Imran Skills",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
         url: "/images/imran/imran-hyrox-champion.jpg",
         width: 1200,
         height: 630,
-        alt: "Mohammad Imran - Premier Wheelchair Trainer and Skills Coach in India",
+        alt: "Mohammad Imran - Wheelchair Lifestyle Instructor",
       },
     ],
     locale: "en_IN",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wheelchair Trainer & Skills Coach India | Mohammad Imran",
+    title: "Mohammad Imran | Wheelchair Lifestyle Instructor",
     description: "Learn To Move. Learn To Travel. Live Independently. Practical 1-on-1 wheelchair skills coaching across India.",
     images: ["/images/imran/imran-hyrox-champion.jpg"],
   },
@@ -79,7 +79,7 @@ export default function RootLayout({
     "@type": ["Person", "SportsPerson"],
     name: SITE_METADATA.name,
     alternateName: ["Imran Skills", "Mohammad Imran", "Wheelchair Power Man of India"],
-    jobTitle: "Wheelchair Trainer, Skills Coach & Adaptive Athlete",
+    jobTitle: "Wheelchair Lifestyle Instructor, Skills Coach & Adaptive Athlete",
     description: SITE_METADATA.coreMission,
     url: "https://imranskills.com",
     image: "https://imranskills.com/images/imran/imran-hyrox-champion.jpg",
@@ -145,7 +145,7 @@ export default function RootLayout({
   const jsonLdBusiness = {
     "@context": "https://schema.org",
     "@type": ["ProfessionalService", "SportsActivityLocation"],
-    name: "Mohammad Imran | Wheelchair Trainer & Skills Coach",
+    name: "Mohammad Imran | Wheelchair Lifestyle Instructor",
     image: "https://imranskills.com/images/imran/imran-hyrox-champion.jpg",
     url: "https://imranskills.com",
     telephone: "+917800222101",
